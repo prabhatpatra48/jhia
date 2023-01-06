@@ -20,7 +20,10 @@ hr{
     border-bottom:none ;
 }
 /* --------------- */
-
+/* ---------------------------BOOTSTRAP MODIFY----------------------- */
+.bg-light{
+    background-color: #d7eee9 !important;
+}
 /* ---------------------TOP CONTAINER----------------- */
 .topContainer{
     text-align: center;
@@ -174,7 +177,7 @@ hr{
     text-align: center;
     height: 100px;
 }
-button{
+.myButton{
     padding: 10px;
     margin: 20px 0;
     border: none;
