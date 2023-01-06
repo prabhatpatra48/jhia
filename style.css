@@ -1,0 +1,192 @@
+/* fontInput */
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=PT+Sans&family=Playfair+Display&display=swap');
+/* font-family: 'Clicker Script', cursive; */
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'PT Sans', sans-serif; */
+/* --------------- */
+
+
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-family: 'Inter', sans-serif
+}
+
+hr{
+    margin: 50px auto;
+    width: 10%;
+    color: rgb(224, 224, 224);
+    border: dotted;
+    border-bottom:none ;
+}
+/* --------------- */
+
+/* ---------------------TOP CONTAINER----------------- */
+.topContainer{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(74 177 154 / 22%);
+    padding-top: 115px;
+    position: relative;
+}
+.topContainer h2{
+    margin-bottom:15px ;
+    font-family: 'Clicker Script', cursive;
+    font-weight: 500;
+    font-weight: normal;
+    font-size: 60px;
+    color: #3e9c87;
+}
+.topContainer p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #3e9c87;
+}
+
+.topContainerTopCloud{
+    position: absolute;
+    top: 13%;
+    left: 21%;
+}
+.topContainerButtomCloud{
+    position: absolute;
+    top: 35%;
+    right: 16%;
+}
+.topContainerBackground{
+    width: 45%;
+    margin-top: 80px;
+}
+
+/* ---------------------MIDDLE CONTAINER----------------- */
+.middleContainer{
+    margin-top: 60px;
+}
+
+.container{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.profile h2{
+    margin: 20px 0;
+    color: #4ab19a;
+}
+
+.profile p{
+    width: 40%;
+    margin: auto;
+    line-height: 20px;
+    color: #6b6b6b;
+}
+
+.profilePicture{
+    width: 15%;
+    margin-bottom: 25px;
+}
+/* --------------------------------------------------- */
+.skill{}
+
+.skillRow{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fbfbfb;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 10px;
+    transition: 0.3s;
+}
+.skillRow:hover{
+    filter: drop-shadow(5px 5px 15px #d8d8d8);
+}
+.skillRow h2{
+    margin-bottom: 25px;
+    color: #3e9c87;
+}
+.skillRow p{
+    color: #6b6b6b;
+    width: 70%;
+    margin: auto;
+    line-height: 25px;
+}
+.skillRow button{
+    padding: 10px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #3e9c87;
+    color: white;
+    transition: 0.3s;
+}
+.skillRow button:hover{
+    background-color: white;
+    color: #3e9c87;
+    border: 1px solid #3e9c87;
+    cursor: pointer;
+}
+.skillPicture img{
+    width: 40%;
+    margin: 50px 0;
+}
+.skillText{
+    margin: auto;
+    margin: auto;
+    width: 382px;
+}
+/* ---------------------BUTTOM CONTAINER----------------- */
+.buttomContainer{}
+
+
+
+
+
+/* __________________________________CONTACT_________________________________________ */
+
+.form{
+    background-color: #fbfbfb;
+    border-radius: 10px;
+    padding: 20px;
+    width: 45%;
+    margin: auto;
+}
+.form h1{
+    color: #555555;
+    font-family: 'PT Sans', sans-serif;
+}
+.form h3{
+    margin: 10px 0;
+    color:#555555;
+    font-weight: normal;
+    font-family: 'PT Sans', sans-serif;
+}
+.formText{
+    color: red;
+}
+.inputBox input{
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    margin: 8px 0;
+    width: 100%;
+}
+#message{
+    text-align: center;
+    height: 100px;
+}
+button{
+    padding: 10px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #3e9c87;
+    color: white;
+    transition: 0.3s;
+    width: 100%;
+}
+button:hover{
+    background-color: white;
+    color: #3e9c87;
+    border: 1px solid #3e9c87;
+    cursor: pointer;
+}

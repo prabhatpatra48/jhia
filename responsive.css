@@ -1,0 +1,71 @@
+/* This CSS file only contain the Responsive style.  */
+
+/* TOP CONTAINER  */
+@media only screen and (max-width: 750px){
+    .topContainer{
+        padding-top: 45px;
+    }
+    .topContainerBackground{
+        /* background-color: red; */
+        width: 52%;
+        margin-top:25px;
+    }
+    .topContainerTopCloud{
+        position: absolute;
+        top: 23%;
+        left: 4%;
+        width: 100px;
+    }
+    .topContainerButtomCloud{
+        position: absolute;
+        top: 57%;
+        right: 3%;
+        width: 100px;
+    }
+    .topContainer p {
+        font-size: 12px;
+        letter-spacing: 1px;
+        color: #3e9c87;
+    }
+/* ---------MIDDLE CONTAINER-----------  */
+
+    .profile p {
+        width: 100%;
+        margin: auto;
+        line-height: 20px;
+        color: #6b6b6b;
+    }
+
+    .skillRow p {
+        color: #6b6b6b;
+        width: 100%;
+        margin: auto;
+    }
+
+    /* ________________________________________________________________ */
+    .form {
+        background-color: #fbfbfb;
+        border-radius: 10px;
+        padding: 20px;
+        width: 88%;
+        margin: auto;
+    }
+    .formContainer{
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+}
+/* ------------------------------------ */
+
+
+
+
+
+/* ------------------------------------- */
+
+/* BUTTOM CONTAINER  */
+
+
+/* --------------------------------------- */
+
